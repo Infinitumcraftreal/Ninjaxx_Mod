@@ -21,12 +21,6 @@ Ninjaxx Mod (Toujours Dans Le Making)
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.ninjaxx_mod]]
-    modId="forge"
-    mandatory=true
-    versionRange="[40.1.0]"
-    ordering="NONE"
-    side="BOTH"
 
 
 
