@@ -1,0 +1,51 @@
+{
+  "mod_elements": [
+    {
+      "name": "NinjaxxItem",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninjaxx_item"
+    },
+    {
+      "name": "NinjaxxMob",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninjaxx_mob"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.ninjaxx_mod.ninjaxx_mob_spawn_egg": "Ninjaxx Spawn Egg",
+      "entity.ninjaxx_mod.ninjaxx_mob": "Ninjaxx",
+      "itemGroup.tabninjaxx_item": "Ninjaxx Item"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ninjaxx_mod",
+    "modName": "Ninjaxx Mod",
+    "version": "1.0.0",
+    "author": "benet, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.ninjaxxmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
