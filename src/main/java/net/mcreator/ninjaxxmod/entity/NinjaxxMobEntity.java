@@ -84,6 +84,11 @@ public class NinjaxxMobEntity extends PathfinderMob {
 	}
 
 	@Override
+	public SoundEvent getAmbientSound() {
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ninjaxx_mod:like_ou_je_te_fume"));
+	}
+
+	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
 		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.grass.step")), 0.15f, 1);
 	}

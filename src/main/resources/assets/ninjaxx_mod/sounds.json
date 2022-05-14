@@ -1,0 +1,11 @@
+{
+  "like_ou_je_te_fume": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ninjaxx_mod:like_ou_jte_fume",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -80,7 +80,7 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:like_ou_je_te_fume"
     },
     "hurtSound": {
       "value": "entity.generic.hurt"

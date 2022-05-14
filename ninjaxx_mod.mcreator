@@ -18,9 +18,19 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "like_ou_je_te_fume",
+      "files": [
+        "like_ou_jte_fume"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "subtitles.like_ou_je_te_fume": "",
       "item.ninjaxx_mod.ninjaxx_mob_spawn_egg": "Ninjaxx Spawn Egg",
       "entity.ninjaxx_mod.ninjaxx_mob": "Ninjaxx",
       "itemGroup.tabninjaxx_item": "Ninjaxx Item"
