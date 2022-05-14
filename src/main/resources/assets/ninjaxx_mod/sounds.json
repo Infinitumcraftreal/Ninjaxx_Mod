@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "nino_oof": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "ninjaxx_mod:nino_oof",
+        "stream": false
+      }
+    ]
   }
 }

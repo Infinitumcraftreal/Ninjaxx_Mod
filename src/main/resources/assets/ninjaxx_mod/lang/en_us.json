@@ -1,6 +1,9 @@
 {
   "subtitles.like_ou_je_te_fume": "",
   "item.ninjaxx_mod.ninjaxx_mob_spawn_egg": "Ninjaxx Spawn Egg",
+  "entity.ninjaxx_mod.nino_mob": "Nino Mob",
   "entity.ninjaxx_mod.ninjaxx_mob": "Ninjaxx",
-  "itemGroup.tabninjaxx_item": "Ninjaxx Item"
+  "item.ninjaxx_mod.nino_mob_spawn_egg": "Nino Mob Spawn Egg",
+  "itemGroup.tabninjaxx_item": "Ninjaxx Item",
+  "subtitles.nino_oof": ""
 }

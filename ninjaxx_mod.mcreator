@@ -15,6 +15,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ninjaxx_mob"
+    },
+    {
+      "name": "NinoMob",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nino_mob"
     }
   ],
   "variable_elements": [],
@@ -26,14 +34,25 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "nino_oof",
+      "files": [
+        "nino_oof"
+      ],
+      "category": "voice",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "subtitles.like_ou_je_te_fume": "",
       "item.ninjaxx_mod.ninjaxx_mob_spawn_egg": "Ninjaxx Spawn Egg",
+      "entity.ninjaxx_mod.nino_mob": "Nino Mob",
       "entity.ninjaxx_mod.ninjaxx_mob": "Ninjaxx",
-      "itemGroup.tabninjaxx_item": "Ninjaxx Item"
+      "item.ninjaxx_mod.nino_mob_spawn_egg": "Nino Mob Spawn Egg",
+      "itemGroup.tabninjaxx_item": "Ninjaxx Item",
+      "subtitles.nino_oof": ""
     }
   },
   "foldersRoot": {
@@ -43,17 +62,20 @@
   "workspaceSettings": {
     "modid": "ninjaxx_mod",
     "modName": "Ninjaxx Mod",
-    "version": "1.0.0",
-    "author": "benet, MCreator",
+    "version": "0.1 Beta",
+    "description": "Ninjaxx Mod (Toujours Dans Le Making)",
+    "author": "Infinitumcraft, SkyFox, Solaris",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
+    "modPicture": "ninjaxxhead",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.ninjaxxmod",
     "lockBaseModFiles": false
   },
