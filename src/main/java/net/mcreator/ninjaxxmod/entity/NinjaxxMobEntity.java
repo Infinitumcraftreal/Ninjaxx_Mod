@@ -13,6 +13,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
@@ -33,6 +34,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.ninjaxxmod.init.NinjaxxModModItems;
 import net.mcreator.ninjaxxmod.init.NinjaxxModModEntities;
 
 import java.util.Set;
@@ -45,7 +47,7 @@ public class NinjaxxMobEntity extends PathfinderMob {
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		if (SPAWN_BIOMES.contains(event.getName()))
 			event.getSpawns().getSpawner(MobCategory.CREATURE)
-					.add(new MobSpawnSettings.SpawnerData(NinjaxxModModEntities.NINJAXX_MOB.get(), 70, 2, 3));
+					.add(new MobSpawnSettings.SpawnerData(NinjaxxModModEntities.NINJAXX_MOB.get(), 15, 2, 3));
 	}
 
 	public NinjaxxMobEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -81,6 +83,11 @@ public class NinjaxxMobEntity extends PathfinderMob {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(NinjaxxModModItems.GLACE_DE_NINJAXX.get()));
 	}
 
 	@Override

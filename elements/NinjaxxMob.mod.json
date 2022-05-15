@@ -77,7 +77,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:GlaceDeNinjaxx"
     },
     "livingSound": {
       "value": "CUSTOM:like_ou_je_te_fume"
@@ -111,7 +111,7 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 70,
+    "spawningProbability": 15,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 3,

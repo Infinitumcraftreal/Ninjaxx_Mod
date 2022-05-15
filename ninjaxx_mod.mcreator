@@ -23,6 +23,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nino_mob"
+    },
+    {
+      "name": "GlaceDeNinjaxx",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glace_de_ninjaxx"
     }
   ],
   "variable_elements": [],
@@ -40,7 +48,7 @@
       "files": [
         "nino_oof"
       ],
-      "category": "voice",
+      "category": "neutral",
       "subtitle": ""
     }
   ],
@@ -49,6 +57,7 @@
       "subtitles.like_ou_je_te_fume": "",
       "item.ninjaxx_mod.ninjaxx_mob_spawn_egg": "Ninjaxx Spawn Egg",
       "entity.ninjaxx_mod.nino_mob": "Nino Mob",
+      "item.ninjaxx_mod.glace_de_ninjaxx": "Glace De Ninjaxx",
       "entity.ninjaxx_mod.ninjaxx_mob": "Ninjaxx",
       "item.ninjaxx_mod.nino_mob_spawn_egg": "Nino Mob Spawn Egg",
       "subtitles.nino_mort": "",
@@ -62,9 +71,9 @@
   },
   "workspaceSettings": {
     "modid": "ninjaxx_mod",
-    "modName": "Ninjaxx Mod",
+    "modName": "Ninjaxx And Nino Mod",
     "version": "0.1 Alpha",
-    "description": "Ninjaxx Mod (Toujours Dans Le Making)",
+    "description": "Ninjaxx And Nino Mod (Toujours Dans Le Making)",
     "author": "Infinitumcraft, SkyFox, Solaris",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

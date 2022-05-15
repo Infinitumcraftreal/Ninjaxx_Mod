@@ -5,13 +5,13 @@ license="Academic Free License v3.0"
 [[mods]]
 modId="ninjaxx_mod"
 version="0.1"
-displayName="Ninjaxx Mod"
+displayName="Ninjaxx And Nino Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
 authors="Infinitumcraft, SkyFox, Solaris"
 description='''
-Ninjaxx Mod (Toujours Dans Le Making)
+Ninjaxx And Nino Mod (Toujours Dans Le Making)
 '''
 
 [[dependencies.ninjaxx_mod]]

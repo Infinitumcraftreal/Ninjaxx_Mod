@@ -9,7 +9,7 @@
     ]
   },
   "nino_mort": {
-    "category": "voice",
+    "category": "neutral",
     "sounds": [
       {
         "name": "ninjaxx_mod:nino_oof",

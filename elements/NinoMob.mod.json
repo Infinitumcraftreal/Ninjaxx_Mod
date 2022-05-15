@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:NinjaxxItem"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -86,7 +86,7 @@
       "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": "CUSTOM:nino_oof"
+      "value": "CUSTOM:nino_mort"
     },
     "stepSound": {
       "value": "block.grass.step"

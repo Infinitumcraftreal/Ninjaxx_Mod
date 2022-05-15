@@ -89,7 +89,7 @@ public class NinoMobEntity extends PathfinderMob {
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ninjaxx_mod:nino_oof"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ninjaxx_mod:nino_mort"));
 	}
 
 	public static void init() {
