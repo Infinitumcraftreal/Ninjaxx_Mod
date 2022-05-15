@@ -36,7 +36,7 @@
       "subtitle": ""
     },
     {
-      "name": "nino_oof",
+      "name": "nino_mort",
       "files": [
         "nino_oof"
       ],
@@ -51,6 +51,7 @@
       "entity.ninjaxx_mod.nino_mob": "Nino Mob",
       "entity.ninjaxx_mod.ninjaxx_mob": "Ninjaxx",
       "item.ninjaxx_mod.nino_mob_spawn_egg": "Nino Mob Spawn Egg",
+      "subtitles.nino_mort": "",
       "itemGroup.tabninjaxx_item": "Ninjaxx Item",
       "subtitles.nino_oof": ""
     }

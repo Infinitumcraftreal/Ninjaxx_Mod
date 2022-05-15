@@ -20,7 +20,7 @@ public class NinjaxxModModSounds {
 	static {
 		REGISTRY.put(new ResourceLocation("ninjaxx_mod", "like_ou_je_te_fume"),
 				new SoundEvent(new ResourceLocation("ninjaxx_mod", "like_ou_je_te_fume")));
-		REGISTRY.put(new ResourceLocation("ninjaxx_mod", "nino_oof"), new SoundEvent(new ResourceLocation("ninjaxx_mod", "nino_oof")));
+		REGISTRY.put(new ResourceLocation("ninjaxx_mod", "nino_mort"), new SoundEvent(new ResourceLocation("ninjaxx_mod", "nino_mort")));
 	}
 
 	@SubscribeEvent
